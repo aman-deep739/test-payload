@@ -1,7 +1,6 @@
 name: example-client-payload-action
-on: 
-  pull_request:
-    branches: [main]
+on: pull_request
+
 jobs:
   test:
     name: Test
