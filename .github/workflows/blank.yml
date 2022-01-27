@@ -2,6 +2,7 @@ name: example-client-payload-action
 on: 
   push:
     branches: [develop]
+
 jobs:
   test:
     name: Test
