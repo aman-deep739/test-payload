@@ -1,5 +1,7 @@
 name: example-client-payload-action
-on: push
+on:
+  push:
+    branches: [test1]
 jobs:
   test:
     name: Test
