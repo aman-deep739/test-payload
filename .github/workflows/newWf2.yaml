@@ -1,4 +1,5 @@
 name: second workflow
+name: second workflow2
 on: 
   push:
     branches: [main]
